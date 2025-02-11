@@ -4,8 +4,8 @@ function ProductDetail() {
   const { id } = useParams();
 
   return (
-    <div className="bg-blue-100 p-6">
-      <h1 className="text-2xl font-bold mb-4">Product Detail</h1>
+    <div className="bg-blue-100 container">
+      <h1 className="page-title">Product Detail</h1>
       <div className="flex flex-col lg:flex-row gap-6">
         <img
           src={`/assets/${id}.jpg`}
